@@ -1,3 +1,11 @@
+import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
+
 export default function App() {
-  return <h1 className="text-7xl font-bold underline">Hello world!</h1>;
+  return (
+    <div>
+      <Navbar />
+      <Banner />
+    </div>
+  );
 }
