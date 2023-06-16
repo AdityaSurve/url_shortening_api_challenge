@@ -1,8 +1,14 @@
 import bgBoostDesktop from "../images/bg-boost-desktop.svg";
+import bgBoostMobile from "../images/bg-boost-mobile.svg";
 const Boost = () => {
   return (
     <div className="h-[10rem] font-pops flex justify-center items-center overflow-hidden w-full relative bg-primaryDarkViolet">
-      <img src={bgBoostDesktop} alt="" className="absolute w-full" />
+      <img
+        src={bgBoostDesktop}
+        alt=""
+        className="absolute w-full lg:block hidden"
+      />
+      <img src={bgBoostMobile} alt="" className="absolute w-full lg:hidden" />
       <div className="flex flex-col z-10 items-center">
         <div className="text-white font-bold text-xl">
           Boost your links today
