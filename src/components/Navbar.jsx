@@ -9,9 +9,9 @@ const Navbar = () => {
       <div className="flex gap-10 items-center">
         <img src={Logo} alt="" className="w-[80%] lg:w-[30%] cursor-pointer" />
         <div className="lg:flex gap-4 hidden">
-          <div className="active:bg-primaryCyan cursor-pointer">Features</div>
-          <div className="active:bg-primaryCyan cursor-pointer">Pricing</div>
-          <div className="active:bg-primaryCyan cursor-pointer">Resources</div>
+          <div className="hover:text-primaryCyan cursor-pointer">Features</div>
+          <div className="hover:text-primaryCyan cursor-pointer">Pricing</div>
+          <div className="hover:text-primaryCyan cursor-pointer">Resources</div>
         </div>
       </div>
 

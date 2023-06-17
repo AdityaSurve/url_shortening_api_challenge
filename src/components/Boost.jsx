@@ -10,7 +10,7 @@ const Boost = () => {
       />
       <img src={bgBoostMobile} alt="" className="absolute w-full lg:hidden" />
       <div className="flex flex-col z-10 items-center">
-        <div className="text-white font-bold text-xl">
+        <div className="text-white cursor-default font-bold text-xl">
           Boost your links today
         </div>
         <div className="bg-primaryCyan text-white px-3 py-2 mt-5 font-bold rounded-full w-[10em] text-center">

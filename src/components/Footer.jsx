@@ -8,8 +8,8 @@ const Footer = () => {
         />
       </svg>
       <div className="flex lg:flex-row flex-col lg:items-start items-center gap-10 lg:gap-20">
-        <div className="flex flex-col gap-1 md:gap-3 lg:items-start items-center text-white">
-          <div className="lg:mb-5 mb-2 font-bold">Features</div>
+        <div className="flex flex-col lg:w-full gap-1 md:gap-3 lg:items-start items-center text-white">
+          <div className="lg:mb-5 mb-2 cursor-default font-bold">Features</div>
           <div className="text-sm hover:text-primaryCyan cursor-pointer">
             Link Shortening
           </div>
@@ -20,8 +20,8 @@ const Footer = () => {
             Analytics
           </div>
         </div>
-        <div className="flex flex-col lg:items-start items-center gap-1 md:gap-3 text-white">
-          <div className="lg:mb-5 mb-2 font-bold">Resources</div>
+        <div className="flex flex-col lg:w-full lg:items-start items-center gap-1 md:gap-3 text-white">
+          <div className="lg:mb-5 mb-2 font-bold cursor-default">Resources</div>
           <div className="text-sm hover:text-primaryCyan cursor-pointer">
             Blog
           </div>
@@ -32,8 +32,8 @@ const Footer = () => {
             Support
           </div>
         </div>
-        <div className="flex flex-col lg:items-start items-center gap-1 md:gap-3 text-white">
-          <div className="lg:mb-5 mb-2 font-bold">Company</div>
+        <div className="flex flex-col lg:w-full lg:items-start items-center gap-1 md:gap-3 text-white">
+          <div className="lg:mb-5 mb-2 font-bold cursor-default">Company</div>
           <div className="text-sm hover:text-primaryCyan cursor-pointer">
             About
           </div>
@@ -61,7 +61,7 @@ const Footer = () => {
               />
             </svg>
           </div>
-          <div>
+          <div className="cursor-pointer hover:text-primaryCyan">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20">
               <path
                 fill="#FFF"
@@ -69,7 +69,7 @@ const Footer = () => {
               />
             </svg>
           </div>
-          <div>
+          <div className="cursor-pointer hover:text-primaryCyan">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
               <path
                 fill="#FFF"
@@ -77,7 +77,7 @@ const Footer = () => {
               />
             </svg>
           </div>
-          <div>
+          <div className="cursor-pointer hover:text-primaryCyan">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
               <path
                 fill="#FFF"

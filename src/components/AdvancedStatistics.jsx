@@ -122,10 +122,10 @@ const AdvancedStatistics = () => {
           </div>
         ))}
       </div>
-      <div className="text-3xl font-bold text-center text-neutralBlack">
+      <div className="text-3xl font-bold cursor-default text-center text-neutralBlack">
         Advanced Statistics
       </div>
-      <div className="text-md font-semibold w-[80%] lg:w-[30%] text-center text-neutralGrayishViolet">
+      <div className="text-md font-semibold cursor-default w-[80%] lg:w-[30%] text-center text-neutralGrayishViolet">
         Track how your links are performing across the web with our advanced
         statistics dashboard.
       </div>
@@ -136,10 +136,10 @@ const AdvancedStatistics = () => {
             alt=""
             className="absolute top-[-30px] right-[40%] lg:left-5 bg-primaryDarkViolet rounded-full p-2"
           />
-          <div className="font-bold text-neutralBlack lg:w-auto w-full lg:text-left text-center">
+          <div className="font-bold text-neutralBlack cursor-default lg:w-auto w-full lg:text-left text-center">
             Brand Recognition
           </div>
-          <div className="text-neutralGrayishViolet text-sm lg:w-auto w-full lg:text-left text-center">
+          <div className="text-neutralGrayishViolet cursor-default text-sm lg:w-auto w-full lg:text-left text-center">
             Boost your brand recognition with each click. Generic links don{"'"}
             t mean a thing. Branded links help instill confidence in your
             content.
@@ -151,28 +151,29 @@ const AdvancedStatistics = () => {
             alt=""
             className="absolute top-[-30px] right-[40%] lg:left-5 bg-primaryDarkViolet rounded-full p-2"
           />
-          <div className="font-bold text-neutralBlack lg:w-auto w-full lg:text-left text-center">
+          <div className="font-bold text-neutralBlack cursor-default lg:w-auto w-full lg:text-left text-center">
             Detailed Records
           </div>
-          <div className="text-neutralGrayishViolet text-sm lg:w-auto w-full lg:text-left text-center">
+          <div className="text-neutralGrayishViolet cursor-default text-sm lg:w-auto w-full lg:text-left text-center">
             Gain insights into who is clicking your links. Knowing when and
             where people engage with your content helps inform better decisions.
           </div>
         </div>
-        <div className="relative flex flex-col gap-3 justify-center h-[12rem] z-[100] w-[18rem] p-5 bg-white rounded-md">
+        <div className="relative flex flex-col gap-3 justify-center h-[12rem] z-[100] w-[18rem] p-5 lg:mt-12 bg-white rounded-md">
           <img
             src={FullyCustomizable}
             alt=""
             className="absolute top-[-30px] right-[40%] lg:left-5 bg-primaryDarkViolet rounded-full p-2"
           />
-          <div className="font-bold text-neutralBlack lg:w-auto w-full lg:text-left text-center">
+          <div className="font-bold text-neutralBlack cursor-default lg:w-auto w-full lg:text-left text-center">
             Fully Customizable
           </div>
-          <div className="text-neutralGrayishViolet text-sm lg:w-auto w-full lg:text-left text-center">
+          <div className="text-neutralGrayishViolet cursor-default text-sm lg:w-auto w-full lg:text-left text-center">
             Improve brand awareness and content discoverability through
             customizable links. Supercharge audience engagement.
           </div>
         </div>
+        <div className="absolute h-[70%] w-2 lg:h-2 lg:w-[50%] bg-primaryCyan lg:top-28" />
       </div>
     </div>
   );
