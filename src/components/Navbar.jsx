@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="fixed bg-white z-[10000] top-0 text-neutralGrayishViolet font-pops font-semibold left-0 h-[15%] w-full flex justify-between items-center px-10 lg:px-32">
+    <div className="fixed bg-white z-[10000] top-0 text-neutralGrayishViolet font-pops font-semibold left-0 h-[10%] w-full flex justify-between items-center px-10 lg:px-32">
       <div className="flex gap-10 items-center">
         <img src={Logo} alt="" className="w-[80%] lg:w-[30%] cursor-pointer" />
         <div className="lg:flex gap-4 hidden">
@@ -59,7 +59,7 @@ const Navbar = () => {
         </svg>
       </div>
       {showMenu && (
-        <div className="lg:hidden fixed top-[15%] justify-center items-center rounded-xl text-center left-[5%] w-[90%] gap-5 py-5 flex flex-col bg-primaryDarkViolet text-white">
+        <div className="lg:hidden fixed top-[10%] justify-center items-center rounded-xl text-center left-[5%] w-[90%] gap-5 py-5 flex flex-col bg-primaryDarkViolet text-white">
           <div>Features</div>
           <div>Pricing</div>
           <div>Resources</div>
